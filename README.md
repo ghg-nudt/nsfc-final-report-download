@@ -45,7 +45,7 @@ python -m pip install -r requirements.txt
 按批准号下载：
 
 ```powershell
-python scripts/download_report.py --grant-number U1806228
+python scripts/download_report.py --grant-number (基金号)
 ```
 
 按项目名称下载：
