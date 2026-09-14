@@ -16,7 +16,7 @@
 将本仓库克隆到 Codex 的个人 Skills 目录：
 
 ```powershell
-git clone https://github.com/<your-account>/nsfc-final-report-download.git `
+git clone https://github.com/ghg-nudt/nsfc-final-report-download.git `
   "$env:CODEX_HOME\skills\nsfc-final-report-download"
 ```
 
@@ -59,4 +59,3 @@ python scripts/download_report.py --title "基于海底地形特征的深海AUV�
 ## 说明
 
 本项目仅处理 `kd.nsfc.cn` 已公开提供的结题报告。网站接口或页面格式发生变化时，脚本可能需要更新。
-
