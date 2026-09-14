@@ -1,0 +1,4 @@
+cryptography>=43
+Pillow>=10
+pypdf>=5
+
