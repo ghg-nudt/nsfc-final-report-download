@@ -25,13 +25,13 @@ git clone https://github.com/ghg-nudt/nsfc-final-report-download.git `
 ## 在 Codex 中使用
 
 ```text
-使用 $nsfc-final-report-download 下载项目 U1806228 的结题报告
+使用 $nsfc-final-report-download 下载项目 (基金批准号) 的结题报告
 ```
 
 也可以提供完整项目名称：
 
 ```text
-使用 $nsfc-final-report-download 下载“基于海底地形特征的深海AUV同步定位与建图方法研究”的结题报告
+使用 $nsfc-final-report-download 下载“（项目名称）”的结题报告
 ```
 
 ## 直接运行脚本
@@ -51,7 +51,7 @@ python scripts/download_report.py --grant-number U1806228
 按项目名称下载：
 
 ```powershell
-python scripts/download_report.py --title "基于海底地形特征的深海AUV同步定位与建图方法研究"
+python scripts/download_report.py --title "(项目名称)"
 ```
 
 默认 PDF 输出到 `output/pdf/`，页面缓存保存到 `tmp/pdfs/nsfc-report-pages/`。中断后使用相同参数重新运行即可续传。
@@ -59,3 +59,7 @@ python scripts/download_report.py --title "基于海底地形特征的深海AUV�
 ## 说明
 
 本项目仅处理 `kd.nsfc.cn` 已公开提供的结题报告。网站接口或页面格式发生变化时，脚本可能需要更新。
+
+##免责声明
+本工具仅供学术交流使用。请遵守国家自然科学基金委员会的相关规定，合理使用下载的报告内容。
+
