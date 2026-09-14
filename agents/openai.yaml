@@ -1,0 +1,4 @@
+interface:
+  display_name: "国家自然科学基金结题报告下载"
+  short_description: "按项目名称或批准号检索并下载公开结题报告，自动合成为 PDF"
+  default_prompt: "使用 $nsfc-final-report-download 下载指定国家自然科学基金项目的公开结题报告。"
